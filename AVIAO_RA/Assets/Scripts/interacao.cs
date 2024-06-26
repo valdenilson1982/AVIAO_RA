@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class interacaoObjeto : MonoBehaviour
+public class interacao : MonoBehaviour
 {
     private bool isVerificarToque;
     private Animator anim;
     public string nomeAnimacao;
 
-
+    
     // Start is called before the first frame update
     void Start()
     {
