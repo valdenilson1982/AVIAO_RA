@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 3298310b4bffef0408bc9254db080b68
+  - enabled: 1
+    path: Assets/Scenes/MontagemProgramao.unity
+    guid: 0a3188ef36b2de542b878f76737144a5
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: f76875d6540da264aaa55a58adaadbb7
+  - enabled: 1
+    path: Assets/Scenes/Pergunta1.unity
+    guid: 301ead9b8b28a7c4abda5a25a9bbe288
+  - enabled: 1
+    path: Assets/Scenes/Pergunta2.unity
+    guid: 1ff97a06883d4fb4bb13927265799cc8
+  - enabled: 1
+    path: Assets/Scenes/DashBoard.unity
+    guid: ca5c096bc4a8a1443ba3e6c1c2b64c38
   m_configObjects: {}
