@@ -6,10 +6,12 @@ public class ativarPalavras : MonoBehaviour
 {
     public GameObject palavras;
     private fecharPainel _fechar;
+    private soteioAleatorioPalavras _aleatorio;
     public int quant;
     void Start()
     {
         _fechar = FindObjectOfType(typeof(fecharPainel)) as fecharPainel;
+        _aleatorio = FindObjectOfType(typeof(soteioAleatorioPalavras)) as soteioAleatorioPalavras;
     }
 
     // Update is called once per frame
@@ -21,7 +23,10 @@ public class ativarPalavras : MonoBehaviour
      if(quant ==7)
         {
             palavras.SetActive(true);
+
+
         }  
+
     }
 
     public void ativarPalavras1()

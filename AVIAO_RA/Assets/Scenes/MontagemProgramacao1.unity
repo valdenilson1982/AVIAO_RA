@@ -3560,7 +3560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1382649603
 Transform:
   m_ObjectHideFlags: 0
@@ -5613,6 +5613,7 @@ GameObject:
   - component: {fileID: 2006690873}
   - component: {fileID: 2006690872}
   - component: {fileID: 2006690874}
+  - component: {fileID: 2006690875}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5635,6 +5636,22 @@ MonoBehaviour:
   contador: 0
   aviaoMontado: {fileID: 554168997}
   aviaoDecolando: {fileID: 133978895}
+  palavras:
+  - {fileID: 118160865}
+  - {fileID: 1668124409}
+  - {fileID: 848905643}
+  - {fileID: 1495774345}
+  - {fileID: 1621500009}
+  - {fileID: 931992853}
+  - {fileID: 149523740}
+  - {fileID: 1165750908}
+  - {fileID: 2054081493}
+  - {fileID: 453951874}
+  - {fileID: 769392759}
+  - {fileID: 1431129320}
+  - {fileID: 1111783614}
+  - {fileID: 744702206}
+  - {fileID: 1225511596}
 --- !u!4 &2006690873
 Transform:
   m_ObjectHideFlags: 0
@@ -5664,6 +5681,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   palavras: {fileID: 1382649602}
   quant: 0
+--- !u!114 &2006690875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006690871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c10729e3f7c5479a69bc1d79ff96f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2045406595
 GameObject:
   m_ObjectHideFlags: 0

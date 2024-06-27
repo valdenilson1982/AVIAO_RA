@@ -12,6 +12,7 @@ public class montagemCompleta : MonoBehaviour
 
     public GameObject aviaoMontado;
     public GameObject aviaoDecolando;
+    public GameObject[] palavras;
        
 
     void Start()
@@ -26,7 +27,12 @@ public class montagemCompleta : MonoBehaviour
         if (contador == 7)
         {
             StartCoroutine(decolarAviao());
+            for(int i = 0; i < palavras.Length; i++)
+            {
+                palavras[i].gameObject.SetActive(false);
+            }
         }
+
     }
 
     IEnumerator decolarAviao()
