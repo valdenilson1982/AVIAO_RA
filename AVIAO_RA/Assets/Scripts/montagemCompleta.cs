@@ -23,10 +23,16 @@ public class montagemCompleta : MonoBehaviour
     void Update()
     {
 
-        if (contador ==7)
+        if (contador == 7)
         {
-            aviaoDecolando.SetActive(true);
-            aviaoMontado.SetActive(false);
+            StartCoroutine(decolarAviao());
         }
+    }
+
+    IEnumerator decolarAviao()
+    {
+        yield return new WaitForSeconds(1.5f);
+        aviaoDecolando.SetActive(true);
+        aviaoMontado.SetActive(false);
     }
 }

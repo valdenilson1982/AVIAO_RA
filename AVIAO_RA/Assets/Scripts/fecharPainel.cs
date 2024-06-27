@@ -6,11 +6,12 @@ public class fecharPainel : MonoBehaviour
 {
     private bool isVerificarToque;
     public GameObject painel;
-    private montagemCompleta _montagemComplete;
+    private ativarPalavras cont;
+
 
     private void Start()
     {
-        _montagemComplete = FindObjectOfType(typeof(montagemCompleta)) as montagemCompleta;
+       cont = FindObjectOfType(typeof( ativarPalavras)) as ativarPalavras;
     }
     void Update()
     {
@@ -18,8 +19,10 @@ public class fecharPainel : MonoBehaviour
         {
             if (Input.GetButton("Fire1"))
             {
-                _montagemComplete.contador++;
+                cont.quant++; 
+               
                 painel.SetActive(false);
+                
             }
         }
 
@@ -34,4 +37,5 @@ public class fecharPainel : MonoBehaviour
     {
         isVerificarToque = false;
     }
+
 }
