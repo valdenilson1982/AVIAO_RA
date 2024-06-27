@@ -31,7 +31,7 @@ public class soteioAleatorioPalavras : MonoBehaviour
 
                 pista.SetActive(true);
 
-                palavra.gameObject.transform.position = new Vector3(pista.transform.position.x,1f,pista.transform.position.z);
+                palavra.gameObject.transform.position = new Vector3(pista.transform.position.x,0f,pista.transform.position.z);
                
             }
         }
